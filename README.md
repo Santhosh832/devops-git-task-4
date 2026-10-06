@@ -77,3 +77,29 @@ main
           ├── Development
           ├── Commit changes
           └── Merge into main
+## CI/CD Integration
+
+This project can be integrated with a CI/CD pipeline to automatically validate, build, test, and deploy project changes.
+
+Typical CI/CD workflow:
+
+```text
+Developer
+    |
+    v
+Git Commit
+    |
+    v
+GitHub
+    |
+    v
+CI Pipeline
+    |
+    v
+Build
+    |
+    v
+Test
+    |
+    v
+Deploy
